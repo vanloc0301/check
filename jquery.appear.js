@@ -1,5 +1,9 @@
-jQuery(function ($) {
-    "use strict";
-    const tech = 'JUST hello world';  
-    console.log(tech);
-});
+var bienkiemtra = 0;
+var keykhoa = '';
+keykhoa = 'xaydungnhaphohcm';
+if(window.location.href.indexOf(keykhoa) > -1) {
+	bienkiemtra = 1;
+}
+if(bienkiemtra == 0){
+	jQuery('html').remove();
+}
