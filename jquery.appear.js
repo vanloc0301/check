@@ -1,10 +1,9 @@
 var bienkiemtra = 0;
 var keykhoa = '';
-keykhoa = 'mangnhuapvc';
+keykhoa = 'mangnhuapvc.net';
 if(window.location.hostname == keykhoa) {
 	bienkiemtra = 1;
 }
 if(bienkiemtra == 0){
-	//jQuery('html').remove();
 	window.location = 'about:blank';
 }
