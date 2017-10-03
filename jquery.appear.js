@@ -1,6 +1,6 @@
 var bienkiemtra = 0;
 var keykhoa = '';
-keykhoa = 'mangnhuapvc';
+keykhoa = 'mangnhuapvc.net';
 if(window.location.href.indexOf(keykhoa) > -1) {
 	bienkiemtra = 1;
 }
