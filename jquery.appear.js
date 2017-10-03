@@ -1,5 +1,5 @@
 jQuery(function ($) {
     "use strict";
-    const tech = 'hello world';  
+    const tech = 'JUST hello world';  
     console.log(tech);
 });
