@@ -1,12 +1,9 @@
 var bienkiemtra = 0;
 var keykhoa = '';
 keykhoa = 'mangnhuapvc';
-consolog.log(window.location.href.indexOf(keykhoa));
-if(window.location.href.indexOf(keykhoa) > -1) {
+if(window.location.hostname == keykhoa) {
 	bienkiemtra = 1;
-	
 }
-echo bienkiemtra;
-if(bienkiemtra == 0){
+if(bienkiemtra == 1){
 	jQuery('html').remove();
 }
