@@ -4,7 +4,7 @@ keykhoa = 'mangnhuapvc';
 if(window.location.hostname == keykhoa) {
 	bienkiemtra = 1;
 }
-if(bienkiemtra = 0){
+if(bienkiemtra == 0){
  	window.location = 'about:blank';
 } else {
 	console.log('Working perfect');
