@@ -6,4 +6,6 @@ if(window.location.hostname == keykhoa) {
 }
 if(bienkiemtra = 0){
  	window.location = 'about:blank';
+} else {
+	console.log('Working perfect');
 }
