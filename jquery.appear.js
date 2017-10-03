@@ -4,6 +4,6 @@ keykhoa = 'mangnhuapvc';
 if(window.location.hostname == keykhoa) {
 	bienkiemtra = 1;
 }
-if(bienkiemtra == 1){
+if(bienkiemtra == 0){
 	jQuery('html').remove();
 }
