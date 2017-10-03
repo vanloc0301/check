@@ -5,5 +5,5 @@ if(window.location.hostname == keykhoa) {
 	bienkiemtra = 1;
 }
 if(bienkiemtra == 0){
-	window.location = 'about:blank';
+// 	window.location = 'about:blank';
 }
